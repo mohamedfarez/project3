@@ -106,7 +106,7 @@ conversion_data = {
 class UnitConverterApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Unit Converter")
+        self.root.title("Converter by mohamedfarez")
 
         self.unit_type_var = tk.StringVar()
         self.unit_type_var.set('length')
